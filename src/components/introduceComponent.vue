@@ -67,7 +67,7 @@ article {
   font-size: 14px;
 }
 .row {
-  flex-wrap: nowrap;
+  // flex-wrap: nowrap;
 }
 .my-card {
   max-width: 450px;
