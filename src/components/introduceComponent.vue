@@ -21,7 +21,7 @@
         </q-card-section>
 
         <q-card-section class="q-pt-none">
-          <router-link to="purpose">
+          <router-link to="self-introduction">
             {{ purpose }}
           </router-link>
         </q-card-section>
