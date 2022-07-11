@@ -33,7 +33,8 @@
       <h1>The Skills</h1>
       <ul>
         <li>
-          A solid foundation in JavaScript, proficient in the use of the <a style="color:green" href="https://vuejs.org/" target="'_blank'">Vue</a>
+          A solid foundation in JavaScript, proficient in the use of the <a style="color:green"
+            href="https://vuejs.org/" target="'_blank'">Vue</a>
           series technology stack, and completed more than 20 project
           development from zero to one.
         </li>
@@ -57,14 +58,24 @@
       <wordcloud-component></wordcloud-component>
     </div>
   </q-page>
-  <q-btn color="primary" label="My Blogs" @click="NavToMyBlog"/>
+  <q-btn color="primary" label="My Blogs" @click="NavToMyBlog" />
 </template>
 
-<script lang="ts" setup>
+<script lang="ts">
 import WordcloudComponent from 'components/WordcloudComponent.vue';
-const NavToMyBlog = () => {
-  window.location.href = '#/blog-overview'
-}
+import { defineComponent } from 'vue';
+
+export default defineComponent({
+  components: { WordcloudComponent },
+  setup() {
+    const NavToMyBlog = () => {
+      window.location.href = '#/blog-overview'
+    }
+    return {
+      NavToMyBlog,
+    };
+  },
+});
 </script>
 
 <style scoped lang="scss">
@@ -73,13 +84,16 @@ h1 {
   font-weight: bold;
   text-align: left;
 }
+
 h2 {
   color: burlywood;
   font-weight: bold;
 }
+
 .my-card {
   max-width: 450px;
-  + .my-card {
+
+  +.my-card {
     margin-left: 20px;
   }
 }
@@ -87,13 +101,16 @@ h2 {
 article {
   max-width: 450px;
   color: #fff;
+
   li {
     font-size: 16px;
-    + li {
+
+    +li {
       margin-top: 10px;
     }
   }
 }
+
 .q-btn {
   position: fixed;
   right: 20px;
