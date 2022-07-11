@@ -57,10 +57,14 @@
       <wordcloud-component></wordcloud-component>
     </div>
   </q-page>
+  <q-btn color="primary" label="My Blogs" @click="NavToMyBlog"/>
 </template>
 
 <script lang="ts" setup>
 import WordcloudComponent from 'components/WordcloudComponent.vue';
+const NavToMyBlog = () => {
+  window.location.href = '#/blog-overview'
+}
 </script>
 
 <style scoped lang="scss">
@@ -89,5 +93,10 @@ article {
       margin-top: 10px;
     }
   }
+}
+.q-btn {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
 }
 </style>

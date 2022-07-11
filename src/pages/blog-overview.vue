@@ -38,12 +38,20 @@ export default {
         path: 'StartBlog'
       },
       {
-        title: 'Welcome to my Blog',
-        subtitle: 'July 8, 2022',
-        content: 'How to have your own blog? Why i Blog?',
+        title: 'Analysis of vue principle',
+        subtitle: 'July 11, 2022',
+        content: 'Some personal insights on vue',
         side: 'right',
         icon: 'done',
-        path: 'start'
+        path: 'vuePrinciple_1'
+      },
+      {
+        title: 'Analysis of vue principle',
+        subtitle: 'July 11, 2022',
+        content: 'Vue‘s data hijacking',
+        side: 'left',
+        icon: 'done',
+        path: 'vuePrinciple_2'
       },
     ];
 

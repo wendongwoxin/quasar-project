@@ -64,7 +64,5 @@
 <script lang="ts" setup></script>
 
 <style scoped lang="scss">
-article {
-  max-width: 70%;
-}
+
 </style>

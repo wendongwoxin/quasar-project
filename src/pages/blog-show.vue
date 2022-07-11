@@ -29,11 +29,12 @@
 <script lang="ts">
 import { defineComponent, ref } from 'vue';
 import StartBlog from '../blogs/start-blog.vue';
-
+import vuePrinciple_1 from '../blogs/vue-pr-1.vue'
+import vuePrinciple_2 from '../blogs/vue-pr-2.vue'
 export default defineComponent({
-  components: { StartBlog },
+  components: { StartBlog, vuePrinciple_1, vuePrinciple_2 },
   setup() {
-    const list: string[] = ['StartBlog', 'Blog'];
+    const list: string[] = ['StartBlog', 'vuePrinciple_1', 'vuePrinciple_2'];
     let name = ref(localStorage.getItem('blogName'));
     let index = ref(-1);
     if (name.value) index.value = list.indexOf(name.value);

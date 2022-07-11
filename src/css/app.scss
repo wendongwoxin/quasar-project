@@ -4,6 +4,7 @@ h2 {
   cursor: pointer;
   font-size: 32px;
   padding: 0 20px;
+  font-weight: bold;
 }
 
 h2:after {
@@ -15,7 +16,26 @@ h2:hover:after {
   opacity: 1;
 }
 
+h3 {
+  color: #00b4ff;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 0 20px;
+}
+
+h3:after {
+  content: '#';
+  opacity: 0;
+}
+
+h3:hover:after {
+  opacity: 1;
+}
+
 article {
+
+  max-width: 70%;
+
   p {
     color: #FFF;
     font-size: 16px;
