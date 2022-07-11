@@ -1,26 +1,28 @@
 // app global css in SCSS form
 h2 {
-    color: #00b4ff;
-    cursor: pointer;
-    font-size: 32px;
-    padding: 0 20px;
+  color: #00b4ff;
+  cursor: pointer;
+  font-size: 32px;
+  padding: 0 20px;
 }
+
 h2:after {
-    content: '#';
-    opacity: 0;
+  content: '#';
+  opacity: 0;
 }
 
 h2:hover:after {
-    opacity: 1;
+  opacity: 1;
 }
 
 article {
-    p {
-        color: #FFF;
-        font-size: 16px;
-        padding: 0 20px;
-    }
-    li {
-        color: #FFF;
-    }
+  p {
+    color: #FFF;
+    font-size: 16px;
+    padding: 0 20px;
+  }
+
+  li {
+    color: #FFF;
+  }
 }

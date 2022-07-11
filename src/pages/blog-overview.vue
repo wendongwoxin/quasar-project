@@ -49,7 +49,7 @@ export default {
 
     const showBlog = (item) => {
         localStorage.setItem('blogName', item.path)
-        window.location.href = `#/blog-show`
+        window.location.href = '#/blog-show'
     }
     return {
       list,
