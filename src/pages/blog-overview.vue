@@ -46,9 +46,9 @@ export default {
         path: 'vuePrinciple_1'
       },
       {
-        title: 'Analysis of vue principle',
+        title: 'Vue‘s data hijacking',
         subtitle: 'July 11, 2022',
-        content: 'Vue‘s data hijacking',
+        // content: 'Vue‘s data hijacking',
         side: 'left',
         icon: 'done',
         path: 'vuePrinciple_2'

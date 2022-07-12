@@ -32,6 +32,22 @@ h3:hover:after {
   opacity: 1;
 }
 
+h4 {
+  color: #0bb3fbf9;
+  cursor: pointer;
+  font-size: 20px;
+  padding: 0 20px;
+}
+
+h4:after {
+  content: '#';
+  opacity: 0;
+}
+
+h4:hover:after {
+  opacity: 1;
+}
+
 article {
 
   max-width: 70%;
@@ -45,4 +61,13 @@ article {
   li {
     color: #FFF;
   }
+}
+
+pre {
+  background-color: #000;
+  padding: 20px;
+}
+
+.language-css .token.string, .style .token.string, .token.entity, .token.operator, .token.url {
+  background: none !important;
 }

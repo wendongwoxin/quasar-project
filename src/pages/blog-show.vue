@@ -66,7 +66,7 @@ export default defineComponent({
   width: 70%;
   display: flex;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
-  padding-top: 24px;
+  padding: 20px 0;
   .page {
     display: flex;
     flex-direction: column;

@@ -94,9 +94,4 @@ const html = Prism.highlight(code, Prism.languages.html, 'html');
 input {
   width: 40px;
 }
-
-pre {
-  background-color: #000;
-  padding: 20px;
-}
 </style>
