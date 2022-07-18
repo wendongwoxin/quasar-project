@@ -53,6 +53,22 @@ export default {
         icon: 'done',
         path: 'vuePrinciple_2'
       },
+      {
+        title: 'handler',
+        subtitle: 'July 13, 2022',
+        // content: 'Vue‘s data hijacking',
+        side: 'right',
+        icon: 'done',
+        path: 'vuePrinciple_3'
+      },
+      {
+        title: 'reactivity',
+        subtitle: 'July 14, 2022',
+        // content: 'Vue‘s data hijacking',
+        side: 'left',
+        icon: 'done',
+        path: 'vuePrinciple_4'
+      }
     ];
 
     const showBlog = (item) => {

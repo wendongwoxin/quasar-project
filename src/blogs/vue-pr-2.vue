@@ -104,7 +104,7 @@
 </template>
 
 <script lang='ts'>
-import { defineComponent, reactive } from "vue";
+import { defineComponent, reactive } from 'vue';
 import Prism from 'prismjs';
 export default defineComponent({
 
